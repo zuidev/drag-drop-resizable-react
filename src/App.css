@@ -5,14 +5,20 @@
 }
 
 .Pictures {
-  margin: 10px;
+  /* margin: 10px; */
+  display: flex;
+  gap: 20px;
 }
 img {
-  margin: 5px;
+  /* margin: 5px; */
 }
 
 .Board {
-  width: 300px;
+  margin: 100px auto 0;
+  width: 1000px;
   height: 500px;
   border: 2px solid black;
+  text-align: left;
+  display: flex;
+  gap: 15px;
 }
